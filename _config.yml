@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /startbox
 exlude: ['README.md']
+include: ['.htaccess']

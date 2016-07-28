@@ -1,6 +1,1 @@
----
-layout: none
-permalink: .htaccess
----
-
-RewriteRule ^styleguide/?$ styleguide.php [L,QSA]
+-RewriteRule ^styleguide/?$ styleguide.php [L,QSA]
