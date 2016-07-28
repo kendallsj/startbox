@@ -1592,6 +1592,12 @@
     width: 100%;
 }
 
+.li-nostyle, .li-nostyle li, .li-nostyle ul, .li-nostyle ol {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
 /* Typography */
 
 body {
