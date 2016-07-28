@@ -25,9 +25,9 @@ function setURL() {
   switch(location.hash.substr(2)) {
     case 'getting-started': setURLiframe(path+"getting_started/overview.html"); break;
     case 'brand-guidelines': setURLiframe(path+"brand/overview.html"); break;
-    case 'web-components': setURLiframe(path+"web_components/overview.html"); break;
-    case 'ios': setURLiframe(path+"ios/overview.html"); break;
-    case 'android': setURLiframe(path+"android/overview.html"); break;
+    case 'web-guidelines': setURLiframe(path+"web/overview.html"); break;
+    case 'ios-guidelines': setURLiframe(path+"ios/overview.html"); break;
+    case 'android-guidelines': setURLiframe(path+"android/overview.html"); break;
     case 'icons': setURLiframe(path+"icons/overview.html"); break; 
   }
 
