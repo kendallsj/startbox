@@ -1,7 +1,7 @@
 /* Layout */
 
 .main_window body {
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 /*header hidden*/
@@ -128,6 +128,7 @@
   border-right: 1px solid #eee;
   height: 100%;
   overflow: hidden;
+  font-size: 20px;
 
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f8f8f8+100 */
 background: #f8f8f8; /* Old browsers */

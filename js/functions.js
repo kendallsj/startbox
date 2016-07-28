@@ -24,11 +24,11 @@ function setURL() {
   var path = "../guidelines/"
   switch(location.hash.substr(2)) {
     case 'getting-started': setURLiframe(path+"getting_started/overview.html"); break;
-    case 'brand-guidelines': setURLiframe(path+"brand/overview.php"); break;
-    case 'web-components': setURLiframe(path+"web_components/overview.php"); break;
-    case 'ios': setURLiframe(path+"ios/overview.php"); break;
-    case 'android': setURLiframe(path+"android/overview.php"); break;
-    case 'icons': setURLiframe(path+"icons/overview.php"); break; 
+    case 'brand-guidelines': setURLiframe(path+"brand/overview.html"); break;
+    case 'web-components': setURLiframe(path+"web_components/overview.html"); break;
+    case 'ios': setURLiframe(path+"ios/overview.html"); break;
+    case 'android': setURLiframe(path+"android/overview.html"); break;
+    case 'icons': setURLiframe(path+"icons/overview.html"); break; 
   }
 
 }
@@ -195,7 +195,7 @@ function getIframeId() {
 
     TweenLite.to(subeMenu, 0.3, {display:'block',opacity:0});
     // TweenLite.to(subeMenu, 0.3, {height:subeMenuHeight});
-    TweenLite.to(subeMenu, 0.3, {opacity:1});
+    TweenLite.to(subeMenu, 0.3, {opacity:0.8});
     TweenLite.to(subeMenu.closest('li'), 0.3, {className:'+=selected'});
   }
 }
