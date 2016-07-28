@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Startbox</title>
+  {% include global_head.html %}
+	</head>
+	{{content}}
+	
+	{% include global_scripts.html %}
+
+	{% if page.slug == "iframe" %}
+		{% include iframe_footer.html %}
+		{% include iframe_scripts.html %}
+	{% endif %}
+	</body>
+</html>
