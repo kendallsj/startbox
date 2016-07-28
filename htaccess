@@ -1,1 +1,0 @@
--RewriteRule ^styleguide/?$ styleguide.php [L,QSA]
