@@ -1587,6 +1587,10 @@
 .pad-60 {
   padding: 60px; }
 
+.img-full img {
+    margin: 0 auto;
+    width: 100%;
+}
 
 /* Typography */
 
@@ -1599,7 +1603,7 @@ body {
 }
 
 p {
-  margin: 0 0 20px 0; }
+  margin: 0 0 16px 0; }
 
 a {
   color: #222;
@@ -1619,37 +1623,37 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .fs-1 {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.4;
   color: #777;
 }
 
 h2, .fs-2 {
   font-size: 30px;
-  line-height: 1.1;
+  line-height: 1.4;
   color: #777;
 }
 
 h3, .fs-3 {
   font-size: 24px;
-  line-height: 1.1;
+  line-height: 1.4;
   color: #777;
 }
 
 h4, .fs-4 {
   font-size: 18px;
-  line-height: 1.1;
+  line-height: 1.4;
   color: #777;
 }
 
 h5, .fs-5 {
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   color: #777;
 }
 
 h6, .fs-6 {
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.4;
   color: #777;
 }
 
@@ -1741,5 +1745,8 @@ dl dt {
 dl dd {
   overflow: hidden;
   display: block; }
+
+
+
 
 /* Colors */

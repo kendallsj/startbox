@@ -114,7 +114,9 @@
 
 
 /*Patterns */
-
+.persona_demographic p {
+  margin: 0 0 6px;
+}
 /* Sidebar */
 
 #sidebar {
