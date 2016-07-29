@@ -434,6 +434,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   z-index: 99;
 }
 
+.bs-docs-section h1.page-header {
+  display: none;
+}
 
 /*End Patterns */
 
