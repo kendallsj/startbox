@@ -111,8 +111,6 @@ $(document).ready(function() {
     event.preventDefault();
     
   });
-
-
 }); // end document ready
 
 
