@@ -1,10 +1,7 @@
 # Startbox - https://mikeolaya.github.io/startbox/
 1. Getting Started
-- Overview
-- How we design
-- Design princples
-- Personas
---
---
-
-2. Brand guidelines
+2. Brand
+3. Web
+4. iOS
+5. Android
+6. Icons
