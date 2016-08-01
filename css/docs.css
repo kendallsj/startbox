@@ -876,8 +876,8 @@ h1[id] {
 
 .bs-example {
   position: relative;
-  padding: 45px 15px 15px;
-  margin: 0 -15px 15px;
+  margin: 20px -15px 15px;
+  padding: 60px 20px 20px;
   border-color: #e5e5e5 #eee #eee;
   border-style: solid;
   border-width: 1px 0;
@@ -888,9 +888,9 @@ h1[id] {
 .bs-example:after {
   position: absolute;
   top: 15px;
-  left: 15px;
+  left: 20px;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   color: #959595;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1189,7 +1189,7 @@ h1[id] {
  */
 
 .highlight {
-  padding: 9px 14px;
+  padding: 20px;
   margin-bottom: 14px;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;

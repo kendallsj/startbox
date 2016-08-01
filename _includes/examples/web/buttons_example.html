@@ -1,6 +1,6 @@
 <div class="bs-docs-section">
   <h2 id="buttons-tags">Button tags</h2>
-  <p>Use the button classes on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
+  <p class="hide">Use the button classes on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
   <form class="bs-example" data-example-id="btn-tags">
     <a class="btn btn-default" href="#" role="button">Link</a>
     <button class="btn btn-default" type="submit">Button</button>
@@ -14,17 +14,17 @@
 <input class="btn btn-default" type="submit" value="Submit">
 {% endhighlight %}
 
-  <div class="bs-callout bs-callout-warning" id="callout-buttons-context-usage">
+  <div class="hide bs-callout bs-callout-warning" id="callout-buttons-context-usage">
     <h4>Context-specific usage</h4>
     <p>While button classes can be used on <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements, only <code>&lt;button&gt;</code> elements are supported within our nav and navbar components.</p>
   </div>
 
-  <div class="bs-callout bs-callout-warning" id="callout-buttons-anchor-accessibility">
+  <div class="hide bs-callout bs-callout-warning" id="callout-buttons-anchor-accessibility">
     <h4>Links acting as buttons</h4>
     <p>If the <code>&lt;a&gt;</code> elements are used to act as buttons – triggering in-page functionality, rather than navigating to another document or section within the current page – they should also be given an appropriate <code>role="button"</code>.</p>
   </div>
 
-  <div class="bs-callout bs-callout-warning" id="callout-buttons-ff-height">
+  <div class="hide bs-callout bs-callout-warning" id="callout-buttons-ff-height">
     <h4>Cross-browser rendering</h4>
     <p>As a best practice, <strong>we highly recommend using the <code>&lt;button&gt;</code> element whenever possible</strong> to ensure matching cross-browser rendering.</p>
     <p>Among other things, there's <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=697451">a bug in Firefox &lt;30</a> that prevents us from setting the <code>line-height</code> of <code>&lt;input&gt;</code>-based buttons, causing them to not exactly match the height of other buttons on Firefox.</p>
@@ -64,7 +64,7 @@
 <button type="button" class="btn btn-link">Link</button>
 {% endhighlight %}
 
-  <div class="bs-callout bs-callout-warning" id="callout-buttons-color-accessibility">
+  <div class="hide bs-callout bs-callout-warning" id="callout-buttons-color-accessibility">
     <h4>Conveying meaning to assistive technologies</h4>
     <p>Using color to add meaning to a button only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (the visible text of the button), or is included through alternative means, such as additional text hidden with the <code>.sr-only</code> class.</p>
   </div>
@@ -122,9 +122,9 @@
 
 
   <h2 id="buttons-active">Active state</h2>
-  <p>Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. For <code>&lt;button&gt;</code> elements, this is done via <code>:active</code>. For <code>&lt;a&gt;</code> elements, it's done with <code>.active</code>. However, you may use <code>.active</code> on <code>&lt;button&gt;</code>s (and include the <code>aria-pressed="true"</code> attribute) should you need to replicate the active state programmatically.</p>
+  <p class="hide">Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. For <code>&lt;button&gt;</code> elements, this is done via <code>:active</code>. For <code>&lt;a&gt;</code> elements, it's done with <code>.active</code>. However, you may use <code>.active</code> on <code>&lt;button&gt;</code>s (and include the <code>aria-pressed="true"</code> attribute) should you need to replicate the active state programmatically.</p>
 
-  <h3>Button element</h3>
+  <h3 class="hide">Button element</h3>
   <p>No need to add <code>:active</code> as it's a pseudo-class, but if you need to force the same appearance, go ahead and add <code>.active</code>.</p>
   <p class="bs-example" data-example-id="active-button-btns">
     <button type="button" class="btn btn-primary btn-lg active">Primary button</button>

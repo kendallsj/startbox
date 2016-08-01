@@ -1866,6 +1866,13 @@
 }
 
 /* Typography */
+.roboto  {
+  font-family: 'Roboto', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -2022,3 +2029,99 @@ dl dd {
 
 
 /* Colors */
+
+.lavender {
+  color:#553ac3;
+}
+
+.bg-lavender {
+  background: #553ac3;
+}
+
+.rose {
+  color: #f85e5f;
+}
+
+.bg-rose {
+  background: #f85e5f;
+}
+
+.startbox-teal {
+  color: #3aa8c3;
+}
+
+.bg-startbox-teal {
+  background: #3aa8c3;
+}
+
+.startbox-red {
+  color: #d0021b;
+}
+
+.bg-startbox-red {
+  background: #d0021b;
+}
+
+.startbox-green {
+  color: #69b713;
+}
+
+.bg-startbox-green {
+  background: #69b713;
+}
+
+.default-black {
+  color: #222;
+}
+
+.bg-default-black {
+  background: #222;
+}
+
+.gray {
+  color: #777;
+}
+
+.bg-gray {
+  background: #777;
+}
+
+.platinum {
+  color: #999;
+}
+
+.bg-platinum {
+  background: #999;
+}
+
+.smoke {
+  color: #fafafa;
+}
+
+.bg-smoke {
+  background: #fafafa;
+}
+
+/* buttons */
+
+.btn {
+  padding: 6px 16px;
+}
+
+.btn-default {
+  background-color: #fafafa;
+    border-color: #fafafa;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03);
+    color: #3aa8c3;
+    font-weight: 300;
+}
+
+.btn-default:hover {
+  background-color: #ffffff;
+    border-color: #ffffff;
+    color: #3aa8c3;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+
+

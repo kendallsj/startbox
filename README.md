@@ -1,4 +1,4 @@
-# Startbox - https://mikeolaya.github.io/startbox/
+# Startbox Styleguide - https://mikeolaya.github.io/startbox/
 1. Getting Started
 2. Brand
 3. Web

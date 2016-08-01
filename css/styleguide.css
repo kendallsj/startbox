@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:500);
+
 /* Layout */
 
 .main_window body {
@@ -85,7 +87,7 @@ body {
 }
 
 .hero {
-    padding: 20px 0 80px;
+    padding: 20px 0 40px;
     position: relative;
 }
 
@@ -563,6 +565,77 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 }
 
+/* colors */
+.color_example_block code:first-child {
+  padding: 0 6px 2px;
+}
+
+.color_example_block code {
+  background: none;
+  font-family: 'Source Code Pro';
+  padding: 2px 6px 2px;
+  display: block;
+  color: #999;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.color_table_example td {
+  color: #999;
+  font-family: 'Source Code Pro';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.color_example {
+    height: 140px;
+}
+
+.panel-block {
+    border: 1px solid #f1f1f1;
+}
+
+.color_box_sample {
+    padding: 14px;
+}
+
+
+.spacing-6 {
+    letter-spacing: 6px;
+}
+
+.type-sample-wrapper {
+  border: 1px solid #f2f2f2;
+    margin: 20px 0;
+    overflow: hidden;
+    padding: 40px 10px;
+    white-space: nowrap;
+
+}
+
+.type-sample {
+  display: flex;
+    flex-wrap:wrap;
+}
+
+.type_lead {
+  color: #777777;
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+.persona_demographic h3 {
+  margin: 0;
+}
+
+.persona_demographic ul {
+  padding: 0 16px;
+  margin: 0;
+}
+
+.persona_demographic li {
+  margin: 12px 0 6px;
+}
 
 @media only screen and (max-width: 768px) {
 
