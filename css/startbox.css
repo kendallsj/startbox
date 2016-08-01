@@ -1886,11 +1886,11 @@ p {
   margin: 0 0 16px 0; }
 
 a {
-  color: #222;
+  color: #553ac3;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:active, a:hover {
-    color: #ff674a;
+    color: #7755df;
     outline-width: 0;
     text-decoration: none; }
 
@@ -2106,6 +2106,10 @@ dl dd {
 
 .btn {
   padding: 6px 16px;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
 }
 
 .btn-default {
@@ -2123,5 +2127,35 @@ dl dd {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
+.btn-primary, .btn-lavender {
+  background-color: #553ac3;
+  border-color: #553ac3;
+  color: #fff;
+}
+
+.btn-primary:hover, .btn-lavender:hover  {
+  background-color: #7755df;
+  border-color: #7755df;
+  color: #fff;
+}
+
+.btn-rose {
+  background-color: #f85e5f;
+  border-color: #f85e5f;
+  color: #fff;
+}
 
 
+.btn-rose:hover {
+  background-color: #fd8789;
+  border-color: #fd8789;
+  color: #fff;
+}
+
+.btn-link {
+  color: #553ac3;
+}
+
+.btn-success {
+  background-color: #69b713;
+}

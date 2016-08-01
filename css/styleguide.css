@@ -637,6 +637,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin: 12px 0 6px;
 }
 
+.iframe_content .highlight {
+  margin: 0;
+}
+
+/* iframe footer */
+
+.overview .nav_page_wrapper {
+  display: none;
+}
+
+.nav_page_wrapper {
+  
+  text-align: center;
+}
+.nav_page_wrapper .nav_page {
+  position: relative;
+  padding: 0;
+}
+.nav_page_wrapper .nav_page:first-child a {
+  border-right: 1px solid #eee;
+}
+
+.nav_page_wrapper .nav_page a {
+    display: block;
+    height: 100px;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.nav_page_wrapper .nav_page a:hover {
+  text-decoration: none;
+}
+
+.nav_page_wrapper .nav_page a span {
+  display: block;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.nav_page_wrapper .nav_page a .cat {
+  font-size: 10px;
+}
+
+.nav_page_wrapper .nav_page a .fui-arrow-right,
+.nav_page_wrapper .nav_page a .fui-arrow-left {
+  font-size: 20px;
+    margin-top: -10px;
+    opacity: 0.4;
+    position: absolute;
+    top: 50%;
+}
+
+.nav_page_wrapper .nav_page a .fui-arrow-left {
+  left: 40px;
+}
+
+.nav_page_wrapper .nav_page a .fui-arrow-right {
+  right: 40px;
+}
+
 @media only screen and (max-width: 768px) {
 
 
