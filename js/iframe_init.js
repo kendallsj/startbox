@@ -10,7 +10,7 @@ $(document).ready(function() {
 
   // Config ZeroClipboard
     ZeroClipboard.config({
-      moviePath: '/flash/ZeroClipboard.swf',
+      moviePath: '../../flash/ZeroClipboard.swf',
       hoverClass: 'btn-clipboard-hover'
     })
 
