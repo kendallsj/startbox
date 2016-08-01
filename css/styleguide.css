@@ -698,6 +698,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   right: 40px;
 }
 
+.overview_link li {
+  margin: 0 0 10px;
+}
+
 @media only screen and (max-width: 768px) {
 
 
