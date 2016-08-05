@@ -483,6 +483,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .page_home .main_wrapper {
     width: 90%;
+    max-width: 960px;
 }
 
 .cta_to_styleguide {
