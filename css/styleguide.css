@@ -150,9 +150,9 @@ body {
 }
 
 .hero .nav-tabs > li.active > a, .hero .nav-tabs > li.active > a:hover, .hero .nav-tabs > li.active > a:focus {
-  color: #5d7b96;
-  border-radius: 0;
-  border-color: #f8f8f8;
+  color: #553AC3;
+  border-radius: 4;
+  border-color: none;
   border-bottom: none;
 }
 
